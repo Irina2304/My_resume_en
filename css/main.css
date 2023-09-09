@@ -42,8 +42,6 @@ img {
 body {
     font-family: Montserrat, Raleway;
     background-color: var(--background-color);
-    width: 2480px;
-    height: 3508px;
 }
 
 .main-conteiner{

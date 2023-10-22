@@ -192,8 +192,8 @@ body {
 }
 
 .date-text {
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 18px;
+  line-height: 1.71;
   color: var(--text-date);
   margin-bottom: 8px;
 }
@@ -216,7 +216,7 @@ body {
 
 .university-name {
   display: block;
-  max-width: 350px;
+  max-width: 400px;
   color: var(--akcent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

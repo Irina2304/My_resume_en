@@ -194,7 +194,7 @@ body {
 .date-text {
   font-size: 18px;
   line-height: 1.71;
-  color: var(--text-date);
+  color: var(--text-color);
   margin-bottom: 8px;
 }
 
@@ -237,15 +237,28 @@ body {
     margin-bottom: auto;
 } */
 
-.project-name {
+.project-name,
+.git-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.25;
-  color: var(--akcent-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-name {
+  color: var(--akcent-color);
 }
 
 .project-name:hover,
 .progect-name:focus {
   color: #cc8460;
+}
+
+.git-name {
+  color: var(--head-tekst-color);
+}
+
+.git-name:hover,
+.git-name:focus {
+  color: var(--text-date);
 }
